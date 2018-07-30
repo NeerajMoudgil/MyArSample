@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
         fragment = supportFragmentManager.findFragmentById(R.id.sceneform_fragment) as ArFragment
         fab.setOnClickListener {
-            addObject(Uri.parse("Heart.sfb"))
+            addObject(Uri.parse("Water_Bottle_01.sfb"))
         }
 
     }
